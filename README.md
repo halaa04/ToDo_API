@@ -66,6 +66,26 @@ Response (`201 Created`):
 ```bash
 npm test
 ```
+## Run with Docker
+
+Build and start the API with one command:
+
+```bash
+docker compose up --build
+```
+
+The API runs at http://localhost:3000. To stop and remove the container:
+
+```bash
+docker compose down
+```
+
+You can also use plain Docker:
+
+```bash
+docker build -t todo-api .
+docker run -d -p 3000:3000 --name todo-api todo-api
+```
 
 ## Notes
 
