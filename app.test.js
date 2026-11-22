@@ -12,7 +12,7 @@ test('GET /health returns ok', async () => {
 
 test('POST /tasks creates a task', async () => {
   const res = await request(app).post('/tasks').send({ title: 'Learn CI/CD' });
-  expect(res.statusCode).toBe(200);
+  expect(res.statusCode).toBe(201);
   expect(res.body.title).toBe('Learn CI/CD');
   expect(res.body.done).toBe(false);
 });
