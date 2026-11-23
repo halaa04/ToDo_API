@@ -1,5 +1,7 @@
 # ToDo_API
 
+[![CI](https://github.com/halaa04/ToDo_API/actions/workflows/ci.yml/badge.svg)](https://github.com/halaa04/ToDo_API/actions/workflows/ci.yml)
+
 A simple REST API for managing a to-do list, built with **Node.js** and **Express**.
 It supports creating, reading, updating and deleting tasks, and has automated tests.
 
